@@ -7,7 +7,7 @@ const Post = ({ post }) => {
     navigate(`${post.id}`);
   };
   return (
-    <Row className="d-flex align-items-center mx-auto mb-2 p-2 border rounded">
+    <Row className="d-flex align-items-center mx-auto mb-2 p-5 border rounded">
       <Col md={3} className="fw-bold">
         {`${post.id}. ${post.title}`}
       </Col>
