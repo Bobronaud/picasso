@@ -22,7 +22,7 @@ const PostContainer = () => {
     if (inViewLastCard) {
       setPostStart((prev) => prev + 1);
     }
-  }, [firstCard, inViewFirstCard, inViewLastCard]);
+  }, [inViewFirstCard, inViewLastCard]);
 
   return (
     data && (
