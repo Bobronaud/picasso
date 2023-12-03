@@ -10,10 +10,10 @@ const PostContainer = () => {
     start: postStart,
   });
   const { ref: firstCard, inView: inViewFirstCard } = useInView({
-    threshold: 0.5,
+    threshold: 0.1,
   });
   const { ref: lastCard, inView: inViewLastCard } = useInView({
-    threshold: 0.5,
+    threshold: 0.1,
   });
   useEffect(() => {
     if (inViewFirstCard) {
