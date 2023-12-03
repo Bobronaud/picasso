@@ -1,4 +1,4 @@
-import Post from '#entities/Post';
+import Post from '#entities/Post/Post';
 import { Container, Row } from 'react-bootstrap';
 import { useGetAllPostsQuery } from '#app/api';
 
@@ -7,7 +7,7 @@ const PostContainer = () => {
   return (
     <Container>
       <Row className="mt-3">
-        {data ? data.map((post) => <Post key={post.id} post={post} />) : null}
+        {data && data.map((post) => <Post key={post.id} post={post} />)}
       </Row>
     </Container>
   );
