@@ -1,6 +1,6 @@
 import { Provider } from 'react-redux';
 import { store } from '#app/store';
-import Routing from '#pages/Routing';
+import Routing from '#app/Routing';
 import '#app/index.css';
 
 const App = () => (

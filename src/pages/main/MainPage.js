@@ -1,4 +1,4 @@
-import PostContainer from '#entities/PostContainer/PostContainer';
+import PostContainer from '#widgets/PostContainer/PostContainer';
 
 const MainPage = () => <PostContainer />;
 
