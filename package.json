@@ -1,6 +1,5 @@
 {
   "name": "virtual-scroll-test-assignment",
-  "homepage": "https://bobronaud.github.io/virtual-scroll-test-assignment",
   "imports": {
     "#*": "./src/*"
   },
