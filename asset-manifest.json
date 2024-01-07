@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/virtual-scroll-test-assignment/static/css/main.e6c13ad2.css",
+    "main.js": "/virtual-scroll-test-assignment/static/js/main.179f1d16.js",
+    "index.html": "/virtual-scroll-test-assignment/index.html",
+    "main.e6c13ad2.css.map": "/virtual-scroll-test-assignment/static/css/main.e6c13ad2.css.map",
+    "main.179f1d16.js.map": "/virtual-scroll-test-assignment/static/js/main.179f1d16.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.179f1d16.js"
+  ]
+}
