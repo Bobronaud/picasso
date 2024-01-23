@@ -12,8 +12,9 @@
 **Versions requirement**:
 - node v20.6.1
   
-**Install localy**: clone repository -> make install
 
-**Launch page and start develop IRL**: make start
+**Install localy**: clone repo -> make install
+
+**Launch page and start develop**: make start
 
 **Build project for production**: make build
