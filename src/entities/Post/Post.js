@@ -7,13 +7,13 @@ const Post = ({ post }) => {
     navigate(`${post.id}`);
   };
   return (
-    <Row className="d-flex align-items-center mx-auto mb-2 p-5 border rounded">
-      <Col md={3} className="fw-bold">
+    <Row className='d-flex align-items-center mx-auto mb-2 p-5 border rounded'>
+      <Col md={3} className='fw-bold mb-3'>
         {`${post.id}. ${post.title}`}
       </Col>
-      <Col className="md-auto text-truncate">{post.body}</Col>
-      <Col className="d-flex justify-content-end" md={2}>
-        <Button onClick={buttonHandler} variant="primary">
+      <Col className='md-auto text-truncate'>{post.body}</Col>
+      <Col className='d-flex justify-content-end  mt-3' md={2}>
+        <Button onClick={buttonHandler} variant='primary'>
           Просмотр
         </Button>
       </Col>
