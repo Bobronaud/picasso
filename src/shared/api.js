@@ -10,7 +10,7 @@ export const api = createApi({
       query: (id) => `/${id}`,
     }),
     getAllPosts: builder.query({
-      query: ({ limit = 15, start = 0 }) => ({
+      query: ({ limit = 10, start = 0 }) => ({
         url: '/',
         params: {
           _limit: limit,

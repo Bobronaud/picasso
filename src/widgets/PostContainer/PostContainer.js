@@ -17,17 +17,17 @@ const PostContainer = () => {
   });
   useEffect(() => {
     if (inViewFirstCard) {
-      setPostStart((prev) => (prev === 0 ? prev : prev - 1));
+      setPostStart((prev) => (prev === 0 ? prev : prev - 5));
     }
     if (inViewLastCard) {
-      setPostStart((prev) => prev + 1);
+      setPostStart((prev) => (prev === 95 ? prev : prev + 5));
     }
   }, [inViewFirstCard, inViewLastCard]);
 
   return (
     data && (
       <Container>
-        <Row className="mt-3">
+        <Row className='mt-3'>
           {data.map((post, index, arr) =>
             index === 0 ? (
               <div key={post.id} ref={firstCard}>
